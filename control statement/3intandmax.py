@@ -11,4 +11,4 @@ elif b >= a and b >= c:
 else:
     maximum = c
 
-print("The maximum number is:", maximum)
+print("The maximum number is", maximum)
