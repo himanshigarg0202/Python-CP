@@ -1,20 +1,20 @@
 #day and number
-daynumber = int(input("enter a number (1 to 7)"))
+n= int(input("enter a number (1 to 7)"))
 
-if daynumber == 1:
+if n == 1:
     print("Sunday")
-elif daynumber == 2:
+elif n == 2:
     print("Monday")
-elif daynumber == 3:
+elif n == 3:
     print("Tuesday")
-elif daynumber == 4:
+elif n == 4:
     print("Wednesday")
-elif daynumber == 5:
+elif n == 5:
     print("Thursday")
-elif daynumber == 6:
+elif n == 6:
     print("Friday")
-elif daynumber == 7:
+elif n == 7:
     print("Saturday")
 else:
-    print("enter a number 1 and 7")
+    print("number 1 and 7")
 
