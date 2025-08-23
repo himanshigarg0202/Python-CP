@@ -1,6 +1,4 @@
-percentage = float(input("Enter your percentage"))
-
-# Check and print grade based on criteria
+percentage = float(input("nter your percentage"))
 if percentage < 0 or percentage > 100:
     print("Please enter a value between 0 and 100")
 
