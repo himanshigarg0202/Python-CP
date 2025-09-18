@@ -1,2 +1,5 @@
 for i in range(5):
-    print("*___*")
+    print("*", end=" ")
+    for j in range(3):
+        print("_", end=" ")
+    print("*")
